@@ -1,0 +1,29 @@
+{
+    "net": "sam",
+    "arch": "vit_b",
+    "targets": "multi_all",
+    "finetune_type": "lora",
+    "normalize_type": "sam",
+    "dir_checkpoint": "checkpoints/SAM/Lora/fold_3",
+    "sam_ckpt": "sam_vit_b_01ec64.pth",
+    "num_cls": 13,
+    "if_update_encoder": true,
+    "if_encoder_adapter": false,
+    "encoder_adapter_depths": [
+        0,
+        1,
+        10,
+        11
+    ],
+    "if_mask_decoder_adapter": false,
+    "decoder_adapt_depth": 2,
+    "if_encoder_lora_layer": true,
+    "if_decoder_lora_layer": true,
+    "encoder_lora_layer": [],
+        "devices": [
+        0,
+        1
+    ],
+    "if_split_encoder_gpus": false,
+    "thd": false
+}
