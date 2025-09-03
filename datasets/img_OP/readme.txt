@@ -1,0 +1,1 @@
+This folder contains subfolders for each patient, and inside each patient’s folder the OP MRI images are stored.

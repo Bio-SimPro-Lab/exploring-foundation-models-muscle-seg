@@ -1,0 +1,1 @@
+This folder contains subfolders for each patient, and inside each patient’s folder the IP MRI images are stored.
