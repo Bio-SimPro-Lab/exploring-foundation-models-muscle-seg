@@ -40,6 +40,6 @@ The repository contains **evaluation scripts and files** used to compute the per
 
 For full details, please refer to the paper linked in this repository
 
-Exploring foundation models for multi-class muscle segmentation in MR images of neuromuscular disorders: A comparative analysis of accuracy and uncertainty: [Paper] : (https://www.sciencedirect.com/science/article/pii/S0169260725004523)
+Exploring foundation models for multi-class muscle segmentation in MR images of neuromuscular disorders: A comparative analysis of accuracy and uncertainty: [Paper](https://www.sciencedirect.com/science/article/pii/S0169260725004523)
 
 ---
