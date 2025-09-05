@@ -17,10 +17,10 @@ The best pretrained/fine-tuned checkpoints are available for download:
 
 ##  Training Instructions
 
-If you want to **train the models** yourself on muscle segmentation task , you can download the original [SAM] (https://github.com/facebookresearch/segment-anything) or [MedSAM] (https://github.com/bowang-lab/MedSAM) checkpoints from their repo. If you want to use as a starting point our checkpoints trained on our private dataset, download them using the previous link.
+If you want to **train the models** yourself on muscle segmentation task , you can download the original [SAM](https://github.com/facebookresearch/segment-anything) or [MedSAM(https://github.com/bowang-lab/MedSAM) checkpoints from their repo. If you want to use as a starting point our checkpoints trained on our private dataset, download them using the previous link.
 
 
-> Note: Our fine-tuning strategy for SAM is **adapted from the Mazurowski Lab approach**, with modifications for multi-class muscle segmentation.  For the original method and instructions on how to preprocess the dataset for fine-tuning SAM, especially on how to load the images in the **datasets** folder and how to generate the .csv in **files** , see: [Mazurowski Lab SAM fine-tuning](https://github.com/mazurowski-lab).
+> Note: Our fine-tuning strategy for SAM is **adapted from the Mazurowski Lab approach**, with modifications for multi-class muscle segmentation.  For the original method and instructions on how to preprocess the dataset for fine-tuning SAM, especially on how to load the images in the **datasets** folder and how to generate the .csv in **files** , see: [Mazurowski Lab SAM fine-tuning][https://github.com/mazurowski-lab](https://github.com/mazurowski-lab/finetune-SAM).
 
 > nnUNet 3D training follows standard nnUNet procedures as described in the official [nnUNet repository](https://github.com/MIC-DKFZ/nnUNet).
 
